@@ -21,21 +21,21 @@ p {
 }
 
 .logo {
-  margin-left: 5%;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  margin-left: 10%;
 }
 
-.nav_bar ul {
+.ul{
   display: flex;
   list-style: none;
   gap: 30px;
-  margin-right: 10%;
   font-size: 15px;
   font-weight: 500;
+  margin-right: 8%;
 }
 
 .nav_bar li a {
@@ -54,7 +54,7 @@ p {
     display: flex;
   }
 
-  .nav_bar ul {
+  .ul {
     display: none;
   }
 }
@@ -64,7 +64,7 @@ p {
     display: flex;
   }
 
-  .nav_bar ul {
+  .ul {
     display: none;
   }
 }
