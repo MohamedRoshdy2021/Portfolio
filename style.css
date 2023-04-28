@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+a,
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  margin-left: 10%;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 8%;
+}
+
+.nav_bar li a {
+  text-decoration: none;
+  color: #344563;
+}
+
+.burger-icon {
+  display: none;
+  margin-right: 8%;
+}
+
+@media (max-width: 768px) {
+  .burger-icon {
+    display: flex;
+  }
+
+  .ul {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .burger-icon {
+    display: flex;
+  }
+
+  .ul {
+    display: none;
+  }
+}
+
+.main {
+  background-image: url("img/header-shapes\ mobile.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  font-style: normal;
+  margin: 0 auto 50px;
+  min-width: 357px;
+  width: 80%;
+}
+
+.text h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 55px;
+  color: #172b4d;
+  margin: 0 0 12px;
+}
+
+.text p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #344563;
+  margin: 6px 0;
+}
+
+#lets-con {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.img-icons {
+  gap: 14px;
+  display: flex;
+  margin: 10px 0;
+  list-style: none;
+  padding-left: 0;
+}
