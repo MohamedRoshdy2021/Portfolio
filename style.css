@@ -5,6 +5,12 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+a,
+p {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -15,7 +21,7 @@ body {
 }
 
 .logo {
-  margin-left: 10%;
+  margin-left: 5%;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -29,7 +35,6 @@ body {
   gap: 30px;
   margin-right: 10%;
   font-size: 15px;
-  font-family: serif;
   font-weight: 500;
 }
 
@@ -41,7 +46,7 @@ body {
 
 .burger-icon {
   display: none;
-  margin-right: 10%;
+  margin-right: 8%;
 }
 
 @media (max-width: 768px) {
@@ -64,10 +69,12 @@ body {
   }
 }
 
-.section {
-  background: url("img/Header bg@2x.png") no-repeat;
+.main {
+  background-image: url("img/header-shapes\ mobile.png");
   background-size: contain;
-  height: 916px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 750px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -75,24 +82,26 @@ body {
 }
 
 .text {
-  width: 70%;
-  padding-bottom: 200px;
   font-style: normal;
+  margin: 0 auto 50px;
+  min-width: 357px;
+  width: 80%;
 }
 
 .text h1 {
-  font-weight: 700px;
-  font-size: 48px;
-  line-height: 60px;
-  color: #091e42;
-  min-width: 100px;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 55px;
+  color: #172b4d;
+  margin: 0 0 12px;
 }
 
 .text p {
-  font-weight: 400px;
-  font-size: 20px;
-  line-height: 28px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
   color: #344563;
+  margin: 6px 0;
 }
 
 #lets-con {
@@ -103,6 +112,9 @@ body {
 }
 
 .img-icons {
-  gap: 20px;
+  gap: 14px;
   display: flex;
+  margin: 10px 0;
+  list-style: none;
+  padding-left: 0;
 }
