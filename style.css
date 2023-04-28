@@ -29,7 +29,7 @@ p {
   margin-left: 10%;
 }
 
-.ul{
+.ul {
   display: flex;
   list-style: none;
   gap: 30px;
