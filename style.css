@@ -168,7 +168,6 @@ p {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  list-style: none;
   gap: 40px;
   padding-left: 0;
 }
@@ -245,7 +244,6 @@ p {
   text-align: center;
   margin-bottom: 20px;
   color: #396df2;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
