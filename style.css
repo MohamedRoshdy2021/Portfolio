@@ -117,16 +117,17 @@ p {
   list-style: none;
   padding-left: 0;
 }
-/* the work section of the site */
-#work-section{
-    display: grid;
-    grid-template-rows: 592px 520px 592px 520px 90px;
-    grid-row-gap: 230px ;
-    width: 80%;
-    margin: 100px auto 0;
-    justify-content: center;
 
+/* the work section of the site */
+#work-section {
+  display: grid;
+  grid-template-rows: 592px 520px 592px 520px 90px;
+  grid-row-gap: 230px;
+  width: 80%;
+  margin: 100px auto 0;
+  justify-content: center;
 }
+
 .cards {
   display: flex;
   flex-direction: column;
@@ -134,30 +135,32 @@ p {
   margin: 0 auto;
   width: 100%;
 }
-.align-text{
+
+.align-text {
   display: flex;
   flex-direction: column;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: start;
   width: 300px;
   height: 288px;
 }
 
-.h2-size{
+.h2-size {
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
   line-height: 30px;
-  color: #172B4D;
+  color: #172b4d;
 }
-    
-.work-p{
+
+.work-p {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
 }
-.first-list{
+
+.first-list {
   display: flex;
   list-style: none;
   color: #344563;
@@ -168,7 +171,8 @@ p {
   gap: 40px;
   padding-left: 0;
 }
-.blue-list{
+
+.blue-list {
   display: flex;
   list-style: none;
   color: #6070ff;
@@ -178,74 +182,81 @@ p {
   padding: 0;
   gap: 30px;
 }
-.work-btn{
+
+.work-btn {
   width: 120px;
   height: 100px;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396DF2;
+  color: #396df2;
   padding: 12px 0;
   margin: 12px 0;
 }
 
-.btn:hover{
-  background-color:#6070FF;
+.btn:hover {
+  background-color: #6070ff;
   border-radius: 6px;
 }
-.btn:active{
- background-color: #2230D2;
- border-radius: 6px;
+
+.btn:active {
+  background-color: #2230d2;
+  border-radius: 6px;
 }
-.btn:disabled{
+
+.btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
 }
 
-.about{
+.about {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin: 0 auto;
 }
-.about h2{
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
+
+.about h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
-.about p{
+
+.about p {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #344563
-}
-#ltsconnct{
-  font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7F8CFF;
+  color: #344563;
 }
 
-.about-btn{
+#ltsconnct {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.about-btn {
   width: 146px;
   height: 44px;
   gap: 10px;
   text-align: center;
   margin-bottom: 20px;
-  color: #396DF2;
+  color: #396df2;
   font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
 }
-.about-languages{
+
+.about-languages {
   display: flex;
   justify-content: space-between;
   flex-direction: row-reverse;
   align-items: center;
-  font-weight:500 ;
+  font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   font-family: 'Poppins', sans-serif;
@@ -253,10 +264,12 @@ p {
   color: #253858;
   width: 80%;
 }
-.iconss{
+
+.iconss {
   width: 15px;
   height: 14px;
 }
+
 .container {
   display: flex;
   justify-content: flex-start;
@@ -278,17 +291,9 @@ p {
 }
 
 .lang p {
-  color: #253858
+  color: #253858;
 }
 
-#im{
+#im {
   margin-left: 40px;
 }
-
-
-
-
-
-
-
-
