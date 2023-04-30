@@ -122,7 +122,7 @@ p {
 /* the work section of the site */
 #work-section {
   display: grid;
-  grid-template-rows: 592px 520px 592px 520px 90px;
+  grid-template-rows: 552px 592px 552px 592px 90px;
   grid-row-gap: 230px;
   width: 80%;
   margin: 100px auto 0;
@@ -135,6 +135,9 @@ p {
   justify-content: center;
   margin: 0 auto;
   width: 100%;
+  background-color: #f5f6f8;
+  border: 1px solid #DFE1E6;
+  border-radius: 16px;
 }
 
 .align-text {
@@ -143,7 +146,10 @@ p {
   justify-content: space-between;
   align-items: start;
   width: 300px;
-  height: 288px;
+  height: 330px;
+}
+#align-id{
+    height: 360px;
 }
 
 .h2-size {
@@ -205,7 +211,8 @@ p {
 }
 
 .btn:hover {
-  background-color: #6070ff;
+  background-color:#6070FF;
+  color: #ffffff;
 }
 
 .btn:active {
@@ -308,7 +315,7 @@ p {
 }
 
 .lang p {
-  color: #253858;
+  opacity: 0.8;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
