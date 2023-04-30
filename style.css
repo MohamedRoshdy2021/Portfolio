@@ -163,13 +163,20 @@ p {
 
 .first-list {
   display: flex;
-  list-style: none;
   color: #344563;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  gap: 40px;
+  gap: 30px;
   padding-left: 0;
+}
+
+.list1 {
+  list-style: none;
+}
+
+.list2 {
+  opacity: 0.5;
 }
 
 .blue-list {
@@ -181,6 +188,7 @@ p {
   line-height: 16px;
   padding: 0;
   gap: 30px;
+  padding-left: 11px;
 }
 
 .work-btn {
@@ -190,18 +198,18 @@ p {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
-  padding: 12px 0;
+  padding: 9px 0;
   margin: 12px 0;
+  border: 1px solid #6070ff;
+  border-radius: 6px;
 }
 
 .btn:hover {
   background-color: #6070ff;
-  border-radius: 6px;
 }
 
 .btn:active {
   background-color: #2230d2;
-  border-radius: 6px;
 }
 
 .btn:disabled {
@@ -248,6 +256,8 @@ p {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
+  border: 1px solid #6070ff;
+  border-radius: 6px;
 }
 
 .about-languages {
@@ -261,6 +271,10 @@ p {
   margin: 8px auto;
   color: #253858;
   width: 80%;
+}
+
+#last-icons {
+  padding-left: 3%;
 }
 
 .iconss {
@@ -279,17 +293,26 @@ p {
   flex-direction: column;
   justify-content: start;
   gap: 35px;
+  padding-left: 10px;
 }
 
 .lang {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   gap: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 .lang p {
   color: #253858;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 #im {
