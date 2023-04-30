@@ -136,7 +136,7 @@ p {
   margin: 0 auto;
   width: 100%;
   background-color: #f5f6f8;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
@@ -148,8 +148,9 @@ p {
   width: 300px;
   height: 330px;
 }
-#align-id{
-    height: 360px;
+
+#align-id {
+  height: 360px;
 }
 
 .h2-size {
@@ -211,8 +212,8 @@ p {
 }
 
 .btn:hover {
-  background-color:#6070FF;
-  color: #ffffff;
+  background-color: #6070ff;
+  color: #fff;
 }
 
 .btn:active {
@@ -309,9 +310,6 @@ p {
   justify-content: start;
   gap: 20px;
   font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
 }
 
 .lang p {
