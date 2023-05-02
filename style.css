@@ -123,7 +123,7 @@ p {
   display: grid;
   grid-template-rows: 552px 592px 552px 592px 90px;
   grid-row-gap: 230px;
-  width: 80%;
+  width: 100%;
   margin: 100px auto 0;
   justify-content: center;
 }
@@ -137,6 +137,7 @@ p {
   background-color: #f5f6f8;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  padding: 0 3% 0 3%;
 }
 
 .align-text {
