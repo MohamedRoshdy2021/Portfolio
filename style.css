@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  font-style: normal;
 }
 
 h1,
@@ -22,7 +23,6 @@ p {
 }
 
 .logo {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -31,7 +31,7 @@ p {
 }
 
 .ul {
-  display: flex;
+  display: none;
   list-style: none;
   gap: 30px;
   font-size: 15px;
@@ -45,17 +45,17 @@ p {
 }
 
 .burger-icon {
-  display: none;
+  display: flex;
   margin-right: 8%;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .burger-icon {
-    display: flex;
+    display: none;
   }
 
   .ul {
-    display: none;
+    display: flex;
   }
 }
 
@@ -82,7 +82,6 @@ p {
 }
 
 .text {
-  font-style: normal;
   margin: 0 auto 50px;
   min-width: 357px;
   width: 80%;
@@ -246,7 +245,6 @@ p {
 }
 
 #ltsconnct {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -260,7 +258,6 @@ p {
   text-align: center;
   margin-bottom: 20px;
   color: #396df2;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -279,6 +276,10 @@ p {
   margin: 8px auto;
   color: #253858;
   width: 80%;
+}
+
+.bor-bot {
+  border-bottom: 3px solid #dfe1e6;
 }
 
 #last-icons {
@@ -322,4 +323,97 @@ p {
 
 #im {
   margin-left: 40px;
+}
+
+/* the contact me section */
+
+.footer-container {
+  height: 48.75em;
+  width: 23.4375em;
+  background-color: #6070ff;
+  margin: 10.875em auto 1.875em;
+  border-radius: 6em 0 0 0;
+  background-image: url("img2/contact\ form\ shapes-mobile@2x.png");
+  background-position: 100% 20%;
+  background-size: 60%;
+  background-repeat: no-repeat;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  padding: 4.125em 1.5em 0;
+  text-align: center;
+  gap: 1.25em;
+}
+
+#form h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+#form p {
+  color: #ebebff;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+#form input {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 100%;
+  height: 3em;
+  font-weight: 400;
+  font-size: 1.06rem;
+  line-height: 1.25rem;
+  color: #172b4d;
+  padding-left: 0.95em;
+}
+
+#form input::placeholder {
+  color: #172b4d !important;
+}
+
+#form textarea {
+  color: #b3bac5;
+  font-weight: 400;
+  font-size: 0.94rem;
+  line-height: 1.5rem;
+  height: 10.7em;
+  padding: 0.875em 0 0 0.75em;
+  border: 1px solid #cfd8dc;
+  border-radius: 0.5em;
+}
+
+#form button {
+  text-align: center;
+  width: 40%;
+  color: #6070ff;
+  padding: 0.75em 1em;
+  font-weight: 500;
+  font-size: 1.06rem;
+  line-height: 1rem;
+  border-radius: 0.5em;
+  border: 0;
+}
+
+#form span {
+  background: #0d151e;
+  border-radius: 0.7em;
+  height: 0.3em;
+  width: 40%;
+  margin: 1.125em auto 0;
+}
+
+#btn-f:hover {
+  background-color: #7f8cff;
+  color: #ebebff;
+}
+
+#btn-f:active {
+  background-color: #2230d2;
 }
