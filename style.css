@@ -374,10 +374,6 @@ p {
   padding-left: 0.95em;
 }
 
-#form input::placeholder {
-  color: #172b4d !important;
-}
-
 #form textarea {
   color: #b3bac5;
   font-weight: 400;
