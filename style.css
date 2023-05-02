@@ -385,6 +385,10 @@ p {
   border-radius: 0.5em;
 }
 
+#form textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+}
+
 #form button {
   text-align: center;
   width: 40%;
