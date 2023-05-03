@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>My portfolio</title>
 </head>
 <body>
@@ -133,7 +133,7 @@
                 <button class="about-btn btn">Get my Resume</button>
             </div>
                 <div class="about-languages">
-                        <img class="iconss" src="img2/angle-down.png" alt="">
+                        <img id="about-languages1" class="iconss" src="img2/angle-down.png" alt="">
                         <P>Languages</P>
                 </div>
                 <div class="container">
@@ -152,14 +152,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="about-languages">
-                    <img class="iconss" src="img2/angle-right.png" alt="vector">
+                <div class="about-languages bor-bot">
+                    <img  class="iconss" src="img2/angle-right.png" alt="vector">
                     <P>Frameworks</P>
                 </div>
-                <div class="about-languages">
+                <div class="about-languages bor-bot">
                     <img class="iconss" src="img2/angle-right.png" alt="">
                     <P>Skills</P>
                 </div>
+                <footer class="footer-container">
+                    <form action="https://formspree.io/f/mayzvjww" method="post" id="form">
+                        <h2>Contact me</h2>
+                        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs
+                        coding.
+                        I’d love to help with it!</p>
+                        <input name="username" type="username" placeholder="lorem lpsum" maxlength="30" required>
+                        <input name="email" type="email" placeholder="loremipsum@gmail.com" required>
+                        <textarea name="textarea" maxlength="500" placeholder="write your message here.."></textarea>
+                        <button name="button" type="submit" id="btn-f">Get in touch</button>
+                        <span></span>
+                    </form>    
+                </footer>
     </main>
 </body>
 </html>

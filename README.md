@@ -85,8 +85,12 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- Added HTML file
-- Added CSS file
+- Added header section
+- Added hero secton
+- Added cards section
+- added about-us section
+- Added contact-us section
+- Added styling to all the setions
 - Added linters
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -149,6 +153,14 @@ coming soon!
 
 - GitHub: [@githubhandle](https://github.com/MohamedRoshdy2021)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammed-elkhadragy-2b58b6215/)
+
+👤 Reza
+
+- GitHub: [@githubhandle](https://github.com/Gh-Reza)
+
+👤 Glauber
+
+- GitHub: [@githubhandle](https://github.com/cancelei)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
