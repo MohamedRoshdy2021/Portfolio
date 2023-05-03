@@ -329,15 +329,16 @@ p {
 /* the contact me section */
 
 .footer-container {
-  height: 48.75em;
-  width: 23.4375em;
+  min-height: 48.75em;
+  width: 100%;
   background-color: #6070ff;
-  margin: 10.875em auto 1.875em;
+  margin: 10.875em auto 0;
   border-radius: 6em 0 0 0;
   background-image: url("img2/contact\ form\ shapes-mobile@2x.png");
-  background-position: 100% 20%;
-  background-size: 60%;
+  background-position: right;
+  background-size: 58%;
   background-repeat: no-repeat;
+  padding-top: 1em;
 }
 
 #form {
@@ -347,6 +348,8 @@ p {
   text-align: center;
   gap: 1.25em;
 }
+
+/* there media query for desktop */
 
 #form h2 {
   font-weight: 700;
@@ -392,7 +395,7 @@ p {
 
 #form button {
   text-align: center;
-  width: 40%;
+  width: 10em;
   color: #6070ff;
   padding: 0.75em 1em;
   font-weight: 500;
@@ -400,14 +403,6 @@ p {
   line-height: 1rem;
   border-radius: 0.5em;
   border: 0;
-}
-
-#form span {
-  background: #0d151e;
-  border-radius: 0.7em;
-  height: 0.3em;
-  width: 40%;
-  margin: 1.125em auto 0;
 }
 
 #btn-f:hover {
