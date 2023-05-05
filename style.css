@@ -136,7 +136,6 @@ p {
   padding-left: 0;
 }
 
-
 /* the work section of the site */
 #work-section {
   display: grid;
@@ -247,8 +246,6 @@ p {
   opacity: 0.5;
   cursor: not-allowed;
 }
-
-
 
 /* the about section */
 
