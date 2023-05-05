@@ -25,14 +25,14 @@
     <main>
     <section class="main">
         <div class="text">
-                <h1>I’m Alexandra.<br>Glad to see you!</h1>
-                <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and
+                <h1>I’m Roshdy.<br>Glad to see you!</h1>
+                <p id="p-1">I’m a software developer! I can help you build a product , feature or website Look through some of my work and
                     experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
                 </p>
                     <p id="lets-con">LET’S CONNECT</p>
                         <ul class="img-icons">
                             <li><a href="#"><img src="img/twitter.jpg" alt="twitter icon"></a></li>
-                            <li><a href="#"><img src="img/Linkedin icon.jpg" alt="Linked in icon"><a></li>
+                            <li><a href="#"><img src="img/Linkedin icon.jpg" alt="Linked in icon"></a></li>
                             <li><a href="#"><img src="img/medium.jpg" alt="medium icon"></a></li>
                             <li><a href="#"><img src="img/github.jpg" alt="github icon"></a></li>
                             <li><a href="#"><img src="img/angellist.jpg" alt="angellist icon"></a></li>
@@ -42,7 +42,7 @@
             <!-- the first card............... -->
             <section id="work-section">
                 <div class="cards">
-                    <img src="img2/Snapshoot Portfolio.png" alt="portfolio img">
+                    <img class="card-img"  src="img2/Snapshoot Portfolio.png" alt="portfolio img">
                     <div class="align-text">
                     <h2 class="h2-size">Tonic</h2>
                     <ul class="first-list">
@@ -60,9 +60,9 @@
                     </div>
                 </div>
             <!-- the second card ...............-->
-                        <div class="cards">
-                            <img src="img2/Snapshoot Portfolio2.png" alt="portfolio img">
-                        <div class="align-text" id="align-id">
+                        <div class="cards" id="cards2">
+                            <img class="card-img " src="img2/Snapshoot Portfolio4.png" alt="portfolio img">
+                        <div class="align-text">
                             <h2 class="h2-size" >Multi-Post<br> Stories</h2>
                             <ul class="first-list">
                                 <li class="list1">CANOPY</li>
@@ -80,7 +80,7 @@
                     </div>
             <!-- the third card ...............-->
                             <div class="cards">
-                                <img src="img2/Snapshoot Portfolio3.png" alt="portfolio img">
+                                <img class="card-img" src="img2/Snapshoot Portfolio.png" alt="portfolio img">
                                 <div class="align-text">
                                     <h2 class="h2-size">Tonic</h2>
                                     <ul class="first-list">
@@ -98,9 +98,9 @@
                                 </div>
                             </div>
             <!-- the fourth card ...............-->
-                                <div class="cards">
-                                    <img src="img2/Snapshoot Portfolio6.png" alt="portfolio img">
-                                    <div class="align-text" id="align-id">
+                                <div class="cards" id="cards4">
+                                    <img class="card-img" src="img2/Snapshoot Portfolio2.png" alt="portfolio img">
+                                    <div class="align-text">
                                         <h2 class="h2-size">Multi-Post<br> Stories</h2>
                                         <ul class="first-list">
                                             <li class="list1">CANOPY</li>
@@ -113,11 +113,12 @@
                                             <li>Css</li>
                                             <li>javascript</li>
                                         </ul>
-                                        <button class="work-btn btn">see project</button>
+                                        <button class="work-btn btn">See project</button>
                                     </div>
                                 </div>
             </section>
             <!--the about myself section--> 
+    <div class="parent-about">
             <div class="about">
                 <h2>About Myself</h2>
                 <p>Hello I’m a software developer! I can help you build a product , feature or website. Look through some of my work and
@@ -132,6 +133,7 @@
                 </ul>
                 <button class="about-btn btn">Get my Resume</button>
             </div>
+        <div class="child-about">
                 <div class="about-languages">
                         <img id="about-languages1" class="iconss" src="img2/angle-down.png" alt="">
                         <P>Languages</P>
@@ -139,7 +141,7 @@
                 <div class="container">
                     <div class="lang-icon">
                         <div class="lang">
-                            <img id="im" src="img2/Ellipse 1.png" alt="javascript">
+                            <img id="js-icon" src="img2/Ellipse 1.png" alt="javascript">
                             <p>Javascript</p>
                         </div>
                         <div class="lang">
@@ -160,6 +162,9 @@
                     <img class="iconss" src="img2/angle-right.png" alt="">
                     <P>Skills</P>
                 </div>
+        </div>
+    </div>
+
                 <footer class="footer-container">
                     <form action="https://formspree.io/f/mayzvjww" method="post" id="form">
                         <h2>Contact me</h2>
@@ -169,7 +174,7 @@
                         <input name="username" type="username" placeholder="lorem lpsum" maxlength="30" required>
                         <input name="email" type="email" placeholder="loremipsum@gmail.com" required>
                         <textarea name="textarea" maxlength="500" placeholder="write your message here.."></textarea>
-                        <button name="button" type="submit" id="btn-f">Get in touch</button>
+                        <button name="button" type="submit">Get in touch</button>
                         <span></span>
                     </form>    
                 </footer>
