@@ -462,6 +462,11 @@ p {
     margin-top: 8em;
     min-width: 82vw;
     min-height: 49vh;
+    transition: 0.4s ease;
+  }
+
+  .cards:hover {
+    transform: scale(1.1);
   }
 
   #cards2 {
