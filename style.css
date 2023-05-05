@@ -129,11 +129,11 @@ p {
 }
 
 .img-icons {
-  gap: 14px;
   display: flex;
   margin: 10px 0;
   list-style: none;
   padding-left: 0;
+  gap: 1.2em;
 }
 
 /* the work section of the site */
@@ -418,7 +418,7 @@ p {
 
 #form button {
   text-align: center;
-  width: 10em;
+  width: 7.5em;
   color: #6070ff;
   padding: 0.75em 1em;
   font-weight: 500;
@@ -461,7 +461,7 @@ p {
     gap: 2%;
     margin-top: 8em;
     min-width: 82vw;
-    min-height: 54vh;
+    min-height: 49vh;
   }
 
   #cards2 {
