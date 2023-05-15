@@ -162,6 +162,10 @@ coming soon!
 
 - GitHub: [@githubhandle](https://github.com/cancelei)
 
+👤 Solomon
+
+- GitHub:  [Solomon](https://github.com/solog0039)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
