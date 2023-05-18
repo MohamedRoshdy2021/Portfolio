@@ -104,12 +104,16 @@
                         coding.
                         I’d love to help with it!</p>
                         <input name="username" type="username" placeholder="lorem lpsum" maxlength="30" required>
-                        <input name="email" type="email" placeholder="loremipsum@gmail.com" required>
-                        <textarea name="textarea" maxlength="500" placeholder="write your message here.."></textarea>
-                        <button name="button" type="submit">Get in touch</button>
+                    <div >
+                        <input id="email" name="email" type="email" placeholder="loremipsum@gmail.com" >
+                        <p id="error">Please enter vailed Email adress only <i class="fa-solid error-close fa-xmark"></i> </p>
+                    </div>
+                        <textarea name="textarea" maxlength="500" placeholder="write your message here.." required></textarea>
+                        <button id="footer-submit" name="button" type="submit">Get in touch</button>
                         <span></span>
                     </form>    
                 </footer>
+                
     </main>
     <script src="js.js"></script>
 </body>
