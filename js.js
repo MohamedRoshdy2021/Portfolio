@@ -159,12 +159,12 @@ modals.forEach((modal) => {
 
 // the form validition
 const form = document.querySelector('#form');
-const inputEmailValue = document.querySelector('#email').value;
 const emailRegex = /^[^@\s]+@[^@\s]+\.[a-z]+$/i;
 const errorMessage = document.querySelector('#error');
 const errorclose = document.querySelector('.error-close');
 
 form.addEventListener('submit', (event) => {
+  const inputEmailValue = document.querySelector('#email').value;
   if (!emailRegex.test(inputEmailValue)) {
     event.preventDefault();
     errorMessage.style.display = 'block';
