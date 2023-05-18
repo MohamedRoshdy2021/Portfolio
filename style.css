@@ -16,6 +16,10 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .nav_bar {
   display: flex;
   justify-content: space-between;
@@ -91,7 +95,6 @@ p {
   width: 90%;
   display: none;
   flex-direction: column;
-  gap: 0.9rem;
   margin: 2.6rem auto;
   position: fixed;
   left: 0;
@@ -111,17 +114,17 @@ p {
 .modal-close {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .fa-solid {
-  margin-right: 2%;
   cursor: pointer;
-  margin-top: 3%;
 }
 
 .modal-para {
   font-size: 0.9rem;
   color: #344563;
+  line-height: 1.5rem;
 }
 
 .modal-para2 {
@@ -129,24 +132,24 @@ p {
 }
 
 .modal-h1 {
-  padding: 0;
+  font-size: 2rem;
+  line-height: 2rem;
   margin: 0;
 }
 
 .modal-first-list {
-  margin: 6px 0;
+  margin: 1.2rem 0;
   padding: 0;
   display: flex;
   color: #344563;
   font-weight: 600;
   font-size: 0.8rem;
-  line-height: 1rem;
   gap: 30px;
   padding-left: 0;
 }
 
 .modal-blue-list {
-  margin: 0;
+  margin-top: 0.5rem;
   padding: 0;
   display: flex;
   list-style: none;
@@ -179,7 +182,7 @@ p {
   background-color: #fff;
   border-radius: 0.4em;
   cursor: pointer;
-  margin: 2rem 0 0.4rem;
+  margin: 2.5rem 0 0.4rem;
 }
 
 .modal-btn-flex {
@@ -189,7 +192,7 @@ p {
 
 .modal-img {
   width: 100%;
-  min-height: 40%;
+  min-height: 34%;
   margin: 0.3rem 0;
 }
 
