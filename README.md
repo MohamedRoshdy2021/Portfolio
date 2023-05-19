@@ -69,6 +69,7 @@ After you're finished please remove all the comments and instructions!
 1: Html
 2: CSS
 3: linters
+3: JavaScript
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -96,7 +97,8 @@ After you're finished please remove all the comments and instructions!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-- coming soon
+
+> https://mohamedroshdy2021.github.io/mobile-first-project/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,6 +162,12 @@ coming soon!
 👤 Glauber
 
 - GitHub: [@githubhandle](https://github.com/cancelei)
+
+👤 Solomon G. Kidanu
+
+- GitHub: [Solomon](https://github.com/solog0039)
+- Twitter: [Solomon](https://twitter.com/Solomon57320119)
+- LinkedIn: [Solomon](https://www.linkedin.com/in/solomon-kidanu-62a994232/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
