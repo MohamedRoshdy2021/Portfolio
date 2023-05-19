@@ -165,7 +165,8 @@ const errorclose = document.querySelector('.error-close');
 // the event status
 form.addEventListener('submit', (event) => {
   const inputEmailValue = document.querySelector('#email').value;
-  if (!emailRegex.test(inputEmailValue)) {
+  const lowercaseEmailValue = inputEmailValue.toLowerCase();
+  if (inputEmailValue !== lowercaseEmailValue || !emailRegex.test(lowercaseEmailValue)) {
     event.preventDefault();
     errorMessage.style.display = 'block';
   }
