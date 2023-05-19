@@ -143,5 +143,16 @@ projects.forEach((project) => {
 
 const btns = document.querySelectorAll('.work-btn');
 const modals = document.querySelectorAll('.modal');
+//Added events for the bottun and closing items
+btns.forEach((btn, index) => {
+  btn.addEventListener('click', () => {
+    modals[index].classList.toggle('active');
+  });
+});
 
-
+modals.forEach((modal) => {
+  const closeButton = modal.querySelector('.fa-solid');
+  closeButton.addEventListener('click', () => {
+    modal.classList.toggle('active');
+  });
+});
