@@ -95,7 +95,7 @@ a {
   width: 90%;
   display: none;
   flex-direction: column;
-  margin: 2.6rem auto;
+  margin: 0.8rem auto;
   position: fixed;
   left: 0;
   top: 0;
@@ -124,7 +124,8 @@ a {
 .modal-para {
   font-size: 0.9rem;
   color: #344563;
-  line-height: 1.5rem;
+  line-height: 1.2;
+  margin-top: 0.4rem;
 }
 
 .modal-para2 {
@@ -132,13 +133,13 @@ a {
 }
 
 .modal-h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 2rem;
   margin: 0;
 }
 
 .modal-first-list {
-  margin: 1.2rem 0;
+  margin: 0.3rem 0;
   padding: 0;
   display: flex;
   color: #344563;
@@ -158,7 +159,6 @@ a {
   font-size: 0.8rem;
   line-height: 1rem;
   gap: 20px;
-  padding-left: 0;
 }
 
 .modal-blue-list2 {
@@ -173,16 +173,16 @@ a {
 
 .modal-btn {
   padding: 10px 8px;
-  width: 8.2em;
+  width: 7.9em;
   font-weight: 500;
   font-size: 1.1rem;
-  line-height: 1.5rem;
   color: #396df2;
   border: 1px solid #6070ff;
   background-color: #fff;
   border-radius: 0.4em;
   cursor: pointer;
-  margin: 2.5rem 0 0.4rem;
+  margin: 0.9rem 0 0.4rem;
+  text-align: center;
 }
 
 .modal-btn-flex {
@@ -635,6 +635,7 @@ a {
     font-size: 1rem;
     line-height: 1.5rem;
     margin: 0;
+    overflow-y: hidden;
   }
 
   .modal-blue-list {

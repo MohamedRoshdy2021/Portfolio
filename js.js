@@ -66,7 +66,7 @@ const projects = [
   },
   {
     name: 'Multi-Post Stories',
-    image: './img2/Snapshoot Portfolio desk4.JPG',
+    image: './img2/Snapshoot Portfolio desk4.png',
     list: ['Canopy', 'Back End Dev', '2015'],
     description:
       'A daily selection of privately personalized reads; no accounts or sign-ups required.',
