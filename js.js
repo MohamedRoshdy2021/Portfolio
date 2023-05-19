@@ -140,7 +140,7 @@ projects.forEach((project) => {
   `;
   existingCard.appendChild(popup);
 });
-
+// Modal popups
 const btns = document.querySelectorAll('.work-btn');
 const modals = document.querySelectorAll('.modal');
 
@@ -162,7 +162,7 @@ const form = document.querySelector('#form');
 const emailRegex = /^[^@\s]+@[^@\s]+\.[a-z]+$/i;
 const errorMessage = document.querySelector('#error');
 const errorclose = document.querySelector('.error-close');
-
+// the event status
 form.addEventListener('submit', (event) => {
   const inputEmailValue = document.querySelector('#email').value;
   if (!emailRegex.test(inputEmailValue)) {
