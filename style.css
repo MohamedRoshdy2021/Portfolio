@@ -122,9 +122,9 @@ a {
 }
 
 .modal-para {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #344563;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
 }
 
 .modal-para2 {
@@ -133,8 +133,8 @@ a {
 
 .modal-h1 {
   font-size: 2rem;
-  line-height: 2rem;
-  margin: 0;
+  line-height: 1.8rem;
+  margin-top: 0.8rem;
 }
 
 .modal-first-list {
@@ -143,7 +143,7 @@ a {
   display: flex;
   color: #344563;
   font-weight: 600;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   gap: 30px;
   padding-left: 0;
 }
@@ -599,6 +599,7 @@ a {
   font-size: 1.2rem;
   padding-top: 10px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .error-close {

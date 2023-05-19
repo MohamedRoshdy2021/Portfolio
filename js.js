@@ -159,18 +159,31 @@ modals.forEach((modal) => {
 
 // the form validition
 const form = document.querySelector('#form');
+const emailInput = document.querySelector('#email');
+const nameInput = document.querySelector('#form-name');
+const textAreaInput = document.querySelector('#form-area');
 const emailRegex = /^[^@\s]+@[^@\s]+\.[a-z]+$/i;
 const errorMessage = document.querySelector('#error');
-const errorclose = document.querySelector('.error-close');
+const errorClose = document.querySelector('.error-close');
 
+// get the data from local storage and fill the input fields
+const formData = JSON.parse(localStorage.getItem('formData'));
+if (formData) {
+  emailInput.value = formData.email || '';
+  nameInput.value = formData.name || '';
+  textAreaInput.value = formData.textarea || '';
+}
+// handling the validition part 
 form.addEventListener('submit', (event) => {
-  const inputEmailValue = document.querySelector('#email').value;
+  const inputEmailValue = emailInput.value;
+  const formName = nameInput.value
+  const textInput = textAreaInput.value
   if (!emailRegex.test(inputEmailValue)) {
     event.preventDefault();
     errorMessage.style.display = 'block';
   }
-
-  errorclose.addEventListener('click', () => {
-    errorMessage.style.display = 'none';
-  });
+  
+errorClose.addEventListener('click', () => {
+  errorMessage.style.display = 'none';
 });
+
