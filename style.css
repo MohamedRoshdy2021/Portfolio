@@ -185,6 +185,7 @@ a {
   border-radius: 0.4em;
   cursor: pointer;
   margin: 0.4rem 0 0.4rem;
+  text-align: center;
 }
 
 .modal-btn-flex {
@@ -673,6 +674,10 @@ a {
 
   .modal-blue-list2 {
     display: flex;
+  }
+
+  .modal-btn {
+    margin: 1.5em 0;
   }
 
   #work-section {
