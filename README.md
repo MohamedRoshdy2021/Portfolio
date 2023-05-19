@@ -96,8 +96,7 @@ After you're finished please remove all the comments and instructions!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
-> https://mohamedroshdy2021.github.io/mobile-first-project
+- coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
