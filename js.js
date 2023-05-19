@@ -182,7 +182,17 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
     errorMessage.style.display = 'block';
   }
-  
+  // storing data in an object inside the local storage object
+  else {
+    const formData = {
+      email: inputEmailValue,
+      name: formName,
+      textarea:textInput
+    };
+    // set the data to the internal local storage 
+    localStorage.setItem('formData', JSON.stringify(formData));
+  }
+});
 errorClose.addEventListener('click', () => {
   errorMessage.style.display = 'none';
 });
