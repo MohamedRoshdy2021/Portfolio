@@ -140,7 +140,7 @@ projects.forEach((project) => {
   `;
   existingCard.appendChild(popup);
 });
-
+// Modal popups
 const btns = document.querySelectorAll('.work-btn');
 const modals = document.querySelectorAll('.modal');
 //Added events for the bottun and closing items
@@ -154,5 +154,24 @@ modals.forEach((modal) => {
   const closeButton = modal.querySelector('.fa-solid');
   closeButton.addEventListener('click', () => {
     modal.classList.toggle('active');
+  });
+});
+
+// the form validition
+const form = document.querySelector('#form');
+const emailRegex = /^[^@\s]+@[^@\s]+\.[a-z]+$/i;
+const errorMessage = document.querySelector('#error');
+const errorclose = document.querySelector('.error-close');
+// the event status
+form.addEventListener('submit', (event) => {
+  const inputEmailValue = document.querySelector('#email').value;
+  const lowercaseEmailValue = inputEmailValue.toLowerCase();
+  if (inputEmailValue !== lowercaseEmailValue || !emailRegex.test(lowercaseEmailValue)) {
+    event.preventDefault();
+    errorMessage.style.display = 'block';
+  }
+
+  errorclose.addEventListener('click', () => {
+    errorMessage.style.display = 'none';
   });
 });
